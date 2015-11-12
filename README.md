@@ -1,8 +1,11 @@
 # drupal-shell
 A starting point for Drupal sites
 
-## Usage
+## Dependencies
+- Drush 8.x
+- npm
 
+## Usage
 ### Download Drupal and base modules
 ```
 drush make project.make.yml docroot
@@ -18,3 +21,4 @@ npm install
 ```
 gulp --develop
 ```
+If you leave out `--develop` Gulp will prepare files for deployment.
