@@ -4,3 +4,12 @@ sites/*/private
 
 # Ignore node modules
 node_modules
+
+# Ignore external libs
+theme/ui/lib
+
+# Ignore compiled css
+theme/ui/css
+
+# Ignore local settings
+settings.local.php
