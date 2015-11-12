@@ -1,0 +1,8 @@
+api: 2
+core: 7.x
+libraries:
+  jquery:
+    download:
+      type: "file"
+      url: "http://code.jquery.com/jquery-latest.js"
+      destination: "ui/lib"

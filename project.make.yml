@@ -1,0 +1,12 @@
+api: 2
+core: "7.x"
+projects:
+  drupal:
+    subdir: "docroot"
+    version: "7.41"
+
+  views:
+    subdir: "contrib"
+
+  webform:
+    subdir: "contrib"
