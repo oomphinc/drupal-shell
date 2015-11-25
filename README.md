@@ -17,6 +17,9 @@ Don't worry, if a Drupal installation already exists, this command won't do anyt
 npm install
 ```
 
+### Add local settings
+Add `settings.local.php` to the root of the repo. This file allow you change your local Drupal settings, but won't be tracked or pushed to the repo.
+
 ### Run Gulp
 ```
 gulp --develop
